@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: auto !important;
+  display: block !important;
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(24, 138, 141, 1) 11.2%,
+    rgba(96, 221, 142, 1) 91.1%
+  );
+  background-color: #354f52;
+  width: 35% !important;
+  height: 80vh;
+  border-radius: 10px / 30px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  margin-top: 50px !important;
+}
+
+.add_div {
+  margin-top: 10px;
+}
+
+.addbtn {
+  color: #cad2c5 !important;
+  margin-right: 5px;
+  font-size: 30px !important;
+  margin: auto;
+  display: block;
+}
+
+.addbtn:hover {
+  color: #84a98c !important;
+  font-size: 35px !important;
+}
+
+.heading {
+  text-align: center;
+  padding: 15px 0px;
+  font-size: 25px;
+  color: #cad2c5;
+}
+
+.input {
+  padding: 5px 30px;
+  border-radius: 5px;
+  margin-left: -15px !important;
+  background-color: #2f3e46;
+  color: #cad2c5;
+  font-size: 15px;
+}
+
+.input_div {
+  padding: 10px 0px;
+  margin: auto !important;
+  width: 50%;
+  display: block !important;
+}
+
+.btn {
+  margin-top: 5px !important;
+  color: #cad2c5 !important;
+  background-color: #84a98c !important;
+}
+
+.btn:hover {
+  background-color: #2f3e46 !important;
+}
+
+.itembtn {
+  color: #cad2c5 !important;
+  font-size: 20px;
+}
+
+.itembtn:hover {
+  color: #84a98c !important;
+  font-size: 30px;
+}
+
+.list {
+  margin-left: 10px;
+  color: #cad2c5;
+  font-weight: 600;
+}
+
+.list_div {
+  margin-left: 30px !important;
+}
+
+li {
+  font-size: 20px;
+  list-style-type: none !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    width: 50% !important;
+    height: 90vh;
+  }
+
+  .input_div {
+    /* padding: 10px 0px; */
+    width: 60%;
+    display: block;
+    margin: auto !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 50% !important;
+    height: 90vh;
+  }
+
+  li {
+    font-size: 16px;
+    list-style-type: none !important;
+  }
+
+  .list_div {
+    margin-left: 20px !important;
+  }
+
+  .input_div {
+    /* padding: 10px 0px; */
+    width: 60%;
+    display: block;
+    margin: auto !important;
+  }
+}
